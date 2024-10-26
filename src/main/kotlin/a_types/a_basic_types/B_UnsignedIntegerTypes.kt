@@ -52,6 +52,6 @@ package a_types.a_basic_types
 //    val a1 = 42u // UInt
 //    val a2 = 0xFFFF_FFFF_FFFFu // ULong
 //
-//    // uL ve UL, sabit değeri açıkça unsignes long olarak etiketler:
+//    // uL ve UL, sabit değeri açıkça unsigned long olarak etiketler:
 //    val a = 1UL
 //}
