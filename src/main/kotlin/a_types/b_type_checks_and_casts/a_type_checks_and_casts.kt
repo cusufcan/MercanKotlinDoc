@@ -183,9 +183,9 @@ package a_types.b_type_checks_and_casts
  * döndüren güvenli dönüştürme operatörünü (?) olarak kullanın.
  */
 
-fun demo(y: Any?) {
-    val x: String? = y as? String
-}
+//fun demo(y: Any?) {
+//    val x: String? = y as? String
+//}
 
 /**
  * NOT: as? ifadesinin sağ tarafınnın null yapıda olmayan
