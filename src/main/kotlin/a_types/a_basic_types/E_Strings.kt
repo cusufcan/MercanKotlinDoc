@@ -174,28 +174,28 @@ package a_types.a_basic_types
  * Bir örneğe bakalım:
  */
 
-fun main() {
-    // Yedi karakter için başa sıfırlar ekleyerek bir tam sayıyı biçimlendirir
-    val integerNumber = String.format("%07d", 31416)
-    println(integerNumber)
-    // 0031416
-
-    // Kesirli sayıyı + işareti ve dört basamak şeklinde biçimlendirir
-    val floatNumber = String.format("%+.4f", 3.141592)
-    println(floatNumber)
-    // +3.1416
-
-    // İki dizeyi büyük harfe dönüştürürür.
-    val helloString = String.format("%S %S", "hello", "world")
-    println(helloString)
-    // HELLO WORLD
-
-    // Negatif bir sayıyı parantez içine alınacak şekilde biçimlendirir
-    // Ardından aynı sayıyı argument_index$ kullanarak parantez olmadan biçimlendirir.
-    val negativeNumberInParantheses = String.format("%(d means %1\$d", -31416)
-    println(negativeNumberInParantheses)
-    // (31416) means -31416
-}
+//fun main() {
+//    // Yedi karakter için başa sıfırlar ekleyerek bir tam sayıyı biçimlendirir
+//    val integerNumber = String.format("%07d", 31416)
+//    println(integerNumber)
+//    // 0031416
+//
+//    // Kesirli sayıyı + işareti ve dört basamak şeklinde biçimlendirir
+//    val floatNumber = String.format("%+.4f", 3.141592)
+//    println(floatNumber)
+//    // +3.1416
+//
+//    // İki dizeyi büyük harfe dönüştürürür.
+//    val helloString = String.format("%S %S", "hello", "world")
+//    println(helloString)
+//    // HELLO WORLD
+//
+//    // Negatif bir sayıyı parantez içine alınacak şekilde biçimlendirir
+//    // Ardından aynı sayıyı argument_index$ kullanarak parantez olmadan biçimlendirir.
+//    val negativeNumberInParantheses = String.format("%(d means %1\$d", -31416)
+//    println(negativeNumberInParantheses)
+//    // (31416) means -31416
+//}
 
 /**
  * Ek olarak, biçim dizesini bir değişkene atayabilirsiniz. Bu, biçim
